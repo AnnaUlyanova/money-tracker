@@ -1,0 +1,15 @@
+#colour {
+   width: 80px;
+   height: 80px;
+   border-radius: 50%;
+   box-shadow: 15px 15px 0 0 lime;
+}
+
+#colour-container {
+  bottom: 10%;
+  padding: 10px;
+}
+
+#colour-container button {
+  margin-top: 20px;
+}
