@@ -13,7 +13,7 @@ export default CreateReactClass({
     return (
       <div id='colour-container'>
         <div id='colour'></div>
-        <button onClick={this.changeColour}>Get Random Colour</button>
+        <button onClick={this.changeColour} className='buttons'>Get Random Colour</button>
       </div>
     )
   }

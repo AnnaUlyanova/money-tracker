@@ -1,4 +1,4 @@
 node_modules
 npm-debug.log
 bundle.*
-client/components/TestColour
+client/components/TestColour.jsx
