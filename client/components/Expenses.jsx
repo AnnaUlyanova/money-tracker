@@ -26,9 +26,18 @@ export default CreateReactClass({
       <div>
         <h2>My Expenses</h2>
         <form>
-          <input value={this.state.value} onChange={this.handleChange}/>
+          <label>Category</label><input onChange={this.handleChange}/>
+          <label>Amount</label><input onChange={this.handleChange}/>
           <button onClick={this.addExpense}>Add expense</button>
         </form>
+        <table>
+          <tbody>
+            <tr>
+              <th>Category</th>
+              <th>Amount</th>
+            </tr>
+          </tbody>
+        </table>
         <p>Total amount spent: {this.state.totalCounter}</p>
       </div>
     )
