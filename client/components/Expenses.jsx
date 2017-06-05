@@ -9,14 +9,10 @@ export default CreateReactClass({
     }
   },
 
-  // componentDidMount() {
-  //
-  // },
-
   handleAmount: function(event) {
     this.setState({
       value: Number(event.target.value)
-    });
+    })
   },
 
     addExpense(event) {
